@@ -1,0 +1,32 @@
+.box{
+    display:flex;
+    gap:23px;
+    justify-content: flex-end;
+    font-family:cursive;
+    width:100vw;
+    height:300px;
+    background-color: bisque;
+    font-size: 18px;
+    font-weight: 900;
+    box-shadow: 5px 6px 7px black;
+     }
+     *{
+    margin: 0px;
+     }
+     li{
+         list-style: none;
+     }
+     li::first-letter{
+         color:blueviolet;
+    
+     }
+    li:hover{
+    
+     text-decoration:underline;
+    cursor:grab;
+    }
+     @media screen and (max-width:436px) {
+       div{
+         flex-direction: column;
+       }
+     }
